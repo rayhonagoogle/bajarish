@@ -9,15 +9,15 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 <body>
-    <section class="header">
-        <div class="container">
-           
+    <header>
+        <section>
+            <div class="container">
                 <nav>
                     <a href="imtion.html">
                         <img src="./img/Frame (1).png" alt="">
                     </a>
                     <h2>Lalasia</h2>
-                 <div class="nav-links" id="navLinks">
+                 <div class="nav">
                     
                       <ul>
                         <li><a href="#">Product</a></li>
@@ -26,9 +26,17 @@
                         <li><a href="#">About Us</a></li>
                        </ul>
                  </div>
-                    <span class="material-symbols-outlined" onclick="showMenu()">
+                 <div class="span">
+                 <span class="material-symbols-outlined">
+                    lock
+                    </span>
+                 <span class="material-symbols-outlined">
+                    person
+                    </span>
+                    <span class="material-symbols-outlined" id="ikonka">
                         menu
                         </span>
+                </div>
                 </nav>
 
                 <div class="text-box">
@@ -48,18 +56,22 @@
                           </h1>
                         <div class="div">
                             <div class="imge"></div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="627" height="427" viewBox="100 100 427 427" fill="none">
+                                <path d="M175.772 245.176C183.833 244.316 194.661 242.923 202.368 240.73M202.368 240.73C203.256 240.477 199.476 234.67 199.28 234.417C194.966 228.863 190.059 224.044 184.952 219.239M202.368 240.73C158.606 235.673 127.02 204.269 126.302 172.87C126.23 169.758 126.156 166.371 126.383 162.992M126.383 162.992C126.746 157.61 127.873 152.249 130.997 148.052C133.881 144.179 139.268 140.348 144.28 140.983C153.642 142.17 156.341 154.392 149.984 160.897C144.398 166.613 132.668 167.79 126.383 162.992ZM126.383 162.992C126.251 162.89 126.121 162.787 125.993 162.68C95.1909 136.963 112.891 93.2305 141.789 77.64" stroke="#A6D8D2" stroke-width="5" stroke-miterlimit="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
                              <p>Pellentesque etiam blandit in tincidunt
                              at donec. Eget ipsum dignissim placerat nisi,
                               adipiscing mauris non. Purus parturient viverra
                                nunc, tortor sit laoreet. Quam
                              tincidunt aliquam adipiscing tempor.</p>
+                             
                          </div>
                   
                  </div>
-    </section>
+         </section>
 
 <!-- java -->
-
+<!-- 
     <script>
         var navLinks = document.getElementById("navLinks");
         function showMenu(){
@@ -67,14 +79,9 @@
         }
         function showMenu(){
             navLinks.style.right ="-200px";
-        }
+        } -->
     
-    </script>
-
-
-
-
-
+    <!-- </script> -->
 
 
 
@@ -152,7 +159,7 @@
                             <p>Pellentesque etiam blandit in tincidunt at donec. Eget ipsum dignissim placerat nisi, 
                                 adipiscing mauris non purus parturient.</p>
                         </div>
-                        <marquee width="100%" direction="left" height="400px">
+                        <marquee width="100%" direction="left" height="600px">
                         <div class="rasmlar">
                           
                               
@@ -176,6 +183,7 @@
                                 <span>$62.23</span>
                             </div>
                             </div>
+                            
 
                             <div class="rasm_1">
                                 <div class="rasm2"></div>
@@ -190,7 +198,7 @@
                             <div class="rasm_1">
                                 <div class="rasm3"></div>
                                 <div class="text">
-                                <p>Chair</p>
+                                <p>cat</p>
                                 <h3>White Aesthetic Chair</h3>
                                 <p>Combination of wood and wool</p>
                                 <span>$63.47</span>
@@ -426,20 +434,27 @@
 
             </div>
            </section>
+           <div class="bor"></div>
            <footer>
             <div class="container">
-                
+               
                 <div class="foot">
-                    <div class="ext_1">
-                        
+                    <div class="ext_2">
+
+                        <div class="hj">
+                        <a href="imtion.html">
+                            <img src="./img/Frame (1).png" alt="">
+                        </a>
                         <h2>Lalasia
                         </h2>
+                    </div>
                         <p>Lalasia is digital agency that help you make
                              better experience iaculis cras in.
                             </p>
                     </div>
-                    
+                    <div class="cc">
                         <div class="ext_1">
+                            
                             <h2>Product
                             </h2>
                            <ul>
@@ -471,11 +486,14 @@
                                         <li>Twitter</li>
                                     </ul>
                                 </div>
-                            </div>
+                        </div>
+
+
+                  </div>
              
             </div>
         </footer>
         </div>
-    </section>
+    </header>
 </body>
 </html>
